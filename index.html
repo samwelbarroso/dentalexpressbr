@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DentalExpressBR - Materiais Odontológicos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #005fa3;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1588776814546-ec7ee64127d1') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+      font-size: 2rem;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .produto {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .produto img {
+      max-width: 100%;
+      height: 150px;
+      object-fit: contain;
+    }
+    footer {
+      background: #0077cc;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DentalExpressBR</h1>
+    <p>Materiais Odontológicos - Envio para todo o Brasil</p>
+  </header>
+  <nav>
+    <a href="#">Início</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <div class="hero">
+    Bem-vindo à DentalExpressBR
+  </div>
+
+  <section class="container" id="produtos">
+    <h2>Produtos em Destaque</h2>
+    <div class="produtos">
+      <div class="produto">
+        <img src="https://via.placeholder.com/200x150?text=Produto+1" alt="Produto 1">
+        <h3>Espelho Odontológico</h3>
+        <p>R$ 19,90</p>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/200x150?text=Produto+2" alt="Produto 2">
+        <h3>Kit de Limpeza</h3>
+        <p>R$ 59,90</p>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/200x150?text=Produto+3" alt="Produto 3">
+        <h3>Caneta de Alta Rotação</h3>
+        <p>R$ 299,90</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>A DentalExpressBR é uma loja sediada em Caucaia, especializada em fornecer materiais odontológicos de alta qualidade para todo o Brasil. Nosso compromisso é com a saúde e a satisfação dos profissionais da área odontológica.</p>
+  </section>
+
+  <section class="container" id="contato">
+    <h2>Fale Conosco</h2>
+    <p>Whatsapp: (xx) xxxxx-xxxx</p>
+    <p>Email: contato@dentalexpressbr.com.br</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DentalExpressBR - Todos os direitos reservados.</p>
+    <p>Sediado em Caucaia - Enviamos para todo o Brasil</p>
+  </footer>
+</body>
+</html>
